@@ -48,6 +48,9 @@ districts <- (district_dp$data[[1]])
 
 chronic_absent_ME_fips <- merge(chronic_absent_ME, districts, by.x = "District", by.y = "District", all=T)
 
+#Set FixedDistrict to Connecticut when District is "State Level"
+chronic_absent_ME_fips[["FixedDistrict"]][chronic_absent_ME_fips$"District" == "State Level"]<- "Connecticut"
+
 chronic_absent_ME_fips$District <- NULL
 
 chronic_absent_ME_fips<-chronic_absent_ME_fips[!duplicated(chronic_absent_ME_fips), ]####
