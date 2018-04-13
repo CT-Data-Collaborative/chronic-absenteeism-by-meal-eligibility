@@ -1,8 +1,6 @@
 Chronic-Absenteeism-by-Meal-Eligibility
 
-[![Build Status](https://travis-ci.org/CT-Data-Collaborative/chronic-absenteeism-by-meal-eligibility.svg?branch=master)](https://travis-ci.org/CT-Data-Collaborative/chronic-absenteeism-by-meal-eligibility)
-
-Chronic Absenteeism reports the percentage of chronically absent students during a school year, per subgroup.
+Chronic Absenteeism reports the percentage of chronically absent students during a school year, per meal eligibility.
 
 Data Source: <http://edsight.ct.gov/>
 
